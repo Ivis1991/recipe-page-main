@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+   
+  li::marker {
+    @apply w-full text-Nutmeg font-bold font-outfit;
+  }
+
+  h2 {
+    @apply font-youngserif text-3xl font-medium text-Nutmeg;
+  }
+
+  tr{
+    @apply h-10;
+  }
+
+}
